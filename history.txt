@@ -1,0 +1,1000 @@
+  137  npx eslint --fix hashmap.js 
+  138  node hashmap.js 
+  139  npx eslint --fix hashmap.js 
+  140  node hashmap.js 
+  141  npx eslint --fix hashmap.js 
+  142  clear
+  143  cd ..
+  144  git clone https://github.com/SifisoSithole/odin-binary-search-tree
+  145  clear
+  146  ls
+  147  code odin-binary-search-tree/
+  148  npm install eslint
+  149  ls
+  150  npm install eslint --save-dev
+  151  ls
+  152  npx eslint --init
+  153  ls
+  154  npx eslint --init
+  155  ls
+  156  code .gitignore
+  157  ls
+  158  clear
+  159  code binary-search-tree.js
+  160  code node.js
+  161  npx eslint --fix node.js 
+  162  npx eslint --fix binary-search-tree.js 
+  163  cd ..
+  164  ls
+  165  git clone https://github.com/SifisoSithole/fem-single-page-developer-portfolio
+  166  git clone https://github.com/SifisoSithole/A2SV_hackathon/tree/main
+  167  git clone https://github.com/SifisoSithole/A2SV_hackathon
+  168  ls
+  169  git clone https://github.com/SifisoSithole/untitled-project_-01
+  170  cp --help
+  171  cp -r A2SV_hackathon/models untitled-project_-01/
+  172  cp -r A2SV_hackathon/auth untitled-project_-01/
+  173  cp -r A2SV_hackathon/requirments.txt untitled-project_-01/
+  174  cp -r A2SV_hackathon/views untitled-project_-01/
+  175  cp -r A2SV_hackathon/app.py untitled-project_-01/
+  176  ls
+  177  code untitled-project_-01/
+  178  python3 app.py 
+  179  ls
+  180  mv auth/auth.py models/
+  181  clear
+  182  code models/auth.py 
+  183  docker pull mongodb
+  184  sudo apt install docker
+  185  sudo apt-get install gnupg curl
+  186  curl -fsSL https://www.mongodb.org/static/pgp/server-7.0.asc |    sudo gpg -o /usr/share/keyrings/mongodb-server-7.0.gpg    --dearmor
+  187  ls
+  188  echo "deb [ arch=amd64,arm64 signed-by=/usr/share/keyrings/mongodb-server-7.0.gpg ] https://repo.mongodb.org/apt/ubuntu jammy/mongodb-org/7.0 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-7.0.list
+  189  sudo apt-get update
+  190  sudo apt-get install -y mongodb-org
+  191  sudo service mongod status
+  192  sudo systemctl daemon-reload
+  193  sudo service daemon-reload
+  194  sudo service mongod start
+  195  sudo service mongod restart
+  196  # Add Docker's official GPG key:
+  197  sudo apt-get update
+  198  sudo apt-get install ca-certificates curl
+  199  sudo install -m 0755 -d /etc/apt/keyrings
+  200  sudo curl -fsSL https://download.docker.com/linux/ubuntu/gpg -o /etc/apt/keyrings/docker.asc
+  201  sudo chmod a+r /etc/apt/keyrings/docker.asc
+  202  # Add the repository to Apt sources:
+  203  echo   "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.asc] https://download.docker.com/linux/ubuntu \
+  204    $(. /etc/os-release && echo "$VERSION_CODENAME") stable" |   sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+  205  sudo apt-get update
+  206  sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
+  207  sudo docker run hello-world
+  208  sudo service docker start
+  209  sudo docker run hello-world
+  210  sudo service docker start
+  211  sudo service docker status
+  212  sudo service docker start
+  213  sudo service docker status
+  214  docker run start
+  215  sudo docker run start
+  216  sudo docker run hello-world
+  217  sudo service docker start
+  218  sudo apt remove docker
+  219  sudo apt remove docker*
+  220  sudo apt remove docker-c* -y
+  221  sudo apt remove docker-ce-cli 
+  222  sudo apt remove docker-ce-rootless-extras 
+  223  sudo apt autoremove 
+  224  sudo apt remove docker-ce
+  225  sudo apt remove docker-compose-plugin 
+  226  sudo apt autoremove 
+  227  sudo apt remove docker-ce-cli 
+  228  curl -s https://raw.githubusercontent.com/karaage0703/ubuntu-setup/master/install-docker.sh | /bin/bash
+  229  code docker script
+  230  code docker-script.sh
+  231  ls -l docker-script.sh 
+  232  chmod +x docker-script.sh 
+  233  ./docker-script.sh 
+  234  sudo service docker start
+  235  sudo docker run echo "hello"
+  236  sudo service docker start
+  237  sudo service docker status 
+  238  sudo docker run echo hello
+  239  docker --help
+  240  sudo docker pull mongodb
+  241  clear
+  242  sudo service docker start
+  243  sudo docker pull mongodb
+  244  ps -aux | grep docker
+  245  sudo dockerd
+  246  sudo docker pull mongodb
+  247  sudo service docker start
+  248  sudo service docker status
+  249  sudo nohup docker daemon -H tcp://0.0.0.0:2375 -H unix:///var/run/docker.sock
+  250  sudo service docker status
+  251  sudo service docker start
+  252  sudo service docker status
+  253  sudo update-alternatives --config iptables
+  254  sudo service docker start
+  255  sudo service docker status
+  256  docker pull mongodb
+  257  sudo docker pull mongodb
+  258  sudo docker run echo "hello"
+  259  sudo docker run hello-world
+  260  docker pull mongo
+  261  mkdir -p ~/mongo_data
+  262  docker run -d -p 27017:27017 -v ~/mongo_data:/data/db --name mongodb mongo
+  263  npm start
+  264  docker start mongodb
+  265  cd ..
+  266  ls
+  267  git clone https://github.com/fira-lab/AiFeedbackFilter/tree/master
+  268  git clone https://github.com/fira-lab/AiFeedbackFilter
+  269  cd AiFeedbackFilter/
+  270  git checkout master 
+  271  ls
+  272  npm start
+  273  code package.json 
+  274  npm install
+  275  npm start
+  276  npm build
+  277  npm run build
+  278  code ../AiFeedbackFilter
+  279  cd ../untitled-project_-01/
+  280  ls
+  281  rm docker-script.sh 
+  282  rm -r auth/
+  283  ls
+  284  rm nohup.out 
+  285  ls
+  286  python3 app.py 
+  287  code views/review.py
+  288  pip install -q transformer
+  289  pip3 install -q transformer
+  290  pip3 install -q transformers
+  291  python3 models/pestdetection.py 
+  292  pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cpu
+  293  python3 models/pestdetection.py 
+  294  code ../AiFeedbackFilter
+  295  clear
+  296  npm start
+  297  sudo docker start mongodb
+  298  sudo service docker start
+  299  sudo docker start mongodb
+  300  sudo service docker status
+  301  sudo service docker start
+  302  sudo service docker status
+  303  sudo docker start mongodb
+  304  code .gitignore
+  305  git push
+  306  python3 app.py 
+  307  npm start
+  308  docker stop mongodb
+  309  npm start
+  310  sudo service docker start
+  311  sudo service docker status
+  312  docker start mongodb
+  313  python3 app.py 
+  314  clear
+  315  python3 app.py 
+  316  clear
+  317  ls ..
+  318  code ../odin-binary-search-tree/
+  319  code binary-search-tree.js 
+  320  node binary-search-tree.js 
+  321  mv --help
+  322  code ../untitled-project_-01/app.py 
+  323  code ../untitled-project_-01/views/auth.py 
+  324  npx eslint --fix binary-search-tree.js 
+  325  node binary-search-tree.js 
+  326  clear
+  327  node binary-search-tree.js 
+  328  npx eslint  binary-search-tree.js 
+  329  npx eslint --fix binary-search-tree.js 
+  330  node binary-search-tree.js 
+  331  clear
+  332  node binary-search-tree.js 
+  333  npx eslint --fix binary-search-tree.js 
+  334  node binary-search-tree.js 
+  335  npm install jest --save-dev
+  336  npm i -S jest
+  337  npx eslint --fix binary-search-tree.test.js 
+  338  npm i -S jest
+  339  npx eslint --fix binary-search-tree.test.js 
+  340  npx eslint --fix binary-search-tree.js 
+  341  sudo service docker start
+  342  npm test
+  343  rm binary-search-tree.test.js 
+  344  npx eslint --fix binary-search-tree.js 
+  345  node binary-search-tree.js 
+  346  npx eslint --fix binary-search-tree.js 
+  347  clear
+  348  ls
+  349  npx eslint --fix binary-search-tree.js 
+  350  node binary-search-tree.js 
+  351  clear
+  352  code driver-script.js
+  353  npx eslint --fix driver-script.js 
+  354  node driver-script.js 
+  355  npx eslint --fix binary-search-tree.js 
+  356  node driver-script.js 
+  357  clear
+  358  node driver-script.js 
+  359  clear
+  360  node driver-script.js 
+  361  clear
+  362  npx eslint --fix driver-script.js 
+  363  npx eslint --fix binary-search-tree.js 
+  364  clear
+  365  node driver-script.js 
+  366  clear
+  367  code README.md
+  368  npx eslint --fix binary-search-tree.js 
+  369  cd ~
+  370  git clone https://github.com/SifisoSithole/odin-knightmoves
+  371  code odin-knightmoves/
+  372  code solution.js
+  373  node solution.js 
+  374  clear
+  375  code README.md 
+  376  cd ..
+  377  ls
+  378  git clone https://github.com/SifisoSithole/odin-git-practise
+  379  clear
+  380  code odin-git-practise/
+  381  touch test{1..4}.md
+  382  ls
+  383  git add test1.md && git commit -m 'Create first file'
+  384  git add test2.md && git commit -m 'Create second file'
+  385  git add test3.md && git commit -m 'Create third file'
+  386  git add test4.md && git commit -m 'Create fourth file'
+  387  git config --global core.editor "code --wait"
+  388  ls
+  389  git status
+  390  git add test4.md 
+  391  git commit --amend
+  392  clear
+  393  git rebase e -i HEAD~2
+  394  git rebase -i HEAD~2
+  395  git rebase --continue
+  396  git rebase -i HEAD~2
+  397  git rebase -i HEAD~3
+  398  git rebase continue
+  399  git rebase --continue
+  400  git rebase -i HEAD~3
+  401  git rebase --abort
+  402  git rebase -i HEAD~3
+  403  ls
+  404  touch test{1..4}.md
+  405  git add test1.md && git commit -m 'Create first file'
+  406  git add test2.md && git commit -m 'Create send file'
+  407  git add test3.md && git commit -m 'Create third file and create fourth file'
+  408  git status
+  409  git log
+  410  clear
+  411  ls
+  412  git commit --amend
+  413  git log
+  414  git add test4.md && git commit --amend
+  415  git rebase -i HEAD~2
+  416  git commit --amend
+  417  git rebase --continue
+  418  git rebase -i --root
+  419  git log
+  420  git rebase -i --root
+  421  git rebase --continue 
+  422  ls
+  423  clear
+  424  git reset HEAD^
+  425  git add test3.md && git commit -m 'Create third file'
+  426  git add test4.md && git commit -m 'Create fourth file'
+  427  https://github.com/SifisoSithole
+  428  git push
+  429  git rebase -i --root
+  430  git push
+  431  git push --force
+  432  cd ..
+  433  git clone https://github.com/SifisoSithole/odin-testing-practice
+  434  clear
+  435  code odin-testing-practice/
+  436  npm install --save-dev jest
+  437  npm install --save-dev eslint 
+  438  npx eslint --init
+  439  npm install --save-dev babel-jest @babel/core @babel/preset-env
+  440  code babel.config.js
+  441  code capitalize.js
+  442  npx eslint --fix capitalize.js 
+  443  Run 'npm i -S @jest/globals
+  444  '
+  445  npm i -S @jest/globals
+  446  clear
+  447  npm test
+  448  npx eslint --fix capitalize.test.js 
+  449  clear
+  450  npm test
+  451  code .gitignore
+  452  clear
+  453  git add .
+  454  git commit
+  455  code reverse-string.js
+  456  npx eslint --fix reverse-string.js 
+  457  npm test\
+  458  clear
+  459  git add . && git commit
+  460  code calculator.js
+  461  npx eslint --fix calculator.js 
+  462  npm test
+  463  git add calculator.* && git commit
+  464  code ceaser-sipher.js
+  465  npm eslint ceaser-sipher.js
+  466  npm eslint 
+  467  npm run eslint ceaser-sipher.js 
+  468  npm run eslint 
+  469  npm test 
+  470  npm run eslint
+  471  npm test
+  472  npx run eslint
+  473  npm run eslint
+  474  npm test
+  475  clear
+  476  npm test
+  477  node ceaser-sipher.js 
+  478  clear
+  479  npm test
+  480  clear
+  481  npm unstall @babel/preset-env
+  482  npm install @babel/preset-env
+  483  npm install babel-jest
+  484  code babel.config.js 
+  485  npm test
+  486  clear
+  487  npm test
+  488  clear
+  489  npm test
+  490  rm ceaser-sipher.*
+  491  code analyzeArray.js
+  492  npx eslint --fix analyzeArray.js 
+  493  npm test
+  494  clear
+  495  npm test
+  496  cd ~
+  497  ls
+  498  git clone https://github.com/Umuzi-org/Sifiso-Sithole-429-bootcamp-writing-assignment-
+  499  code Sifiso-Sithole-429-bootcamp-writing-assignment-/
+  500  ls
+  501  code 1_My_History.md
+  502  mv 1_My_History.md 1-my_brief_history.md
+  503  code 1-my_brief_history.md 
+  504  code 2-why_I_want_this_career.md
+  505  code 1-my_brief_history.md 
+  506  code 3-free_time.md
+  507  code 4-relevant_experience.md
+  508  code 5-what_will_make_a_good_cooder.md
+  509  code 6-what_will_prevent_success.md
+  510  code 7-my_routine.md
+  511  code 8-future_good_parts.md
+  512  code 9-future_scary_part.md
+  513  code 10-my_commitments.md
+  514  code 11-do_my_own_work.md
+  515  cd ..
+  516  git clone https://github.com/Umuzi-org/Sifiso-Sithole-756-contentitem-javascript
+  517  code Sifiso-Sithole-756-contentitem-javascript/
+  518  code task1.js
+  519  cd ..
+  520  git clone https://github.com/Umuzi-org/Sifiso-Sithole-764-contentitem-javascript
+  521  clear
+  522  git clone https://github.com/Umuzi-org/Sifiso-Sithole-764-contentitem-javascript
+  523  git clone git@github.com:Umuzi-org/Sifiso-Sithole-764-contentitem-javascript.git
+  524  ls
+  525  code Sifiso-Sithole-764-contentitem-javascript/
+  526  code task2.js
+  527  node task2.js 
+  528  code ~
+  529  git clone git@github.com:Umuzi-org/Sifiso-Sithole-760-contentitem-javascript.git
+  530  cd Sifiso-Sithole-760-contentitem-javascript/
+  531  code ttask3.js
+  532  ls
+  533  node ttask3.js 
+  534  mv ttask3.js task3.js 
+  535  ls
+  536  git add . && git commit
+  537  git push
+  538  git clone git@github.com:Umuzi-org/Sifiso-Sithole-759-contentitem-javascript.git
+  539  cd Sifiso-Sithole-759-contentitem-javascript/
+  540  ls
+  541  code task4.js
+  542  node task4.js 
+  543  git add . && git commit
+  544  git push
+  545  cd ..
+  546  git clone git@github.com:Umuzi-org/Sifiso-Sithole-763-contentitem-javascript.git
+  547  cd Sifiso-Sithole-763-contentitem-javascript/
+  548  ls
+  549  code task5.js
+  550  node task5.js 
+  551  clear
+  552  git add . && git commit
+  553  git push
+  554  cd ..
+  555  git clone git@github.com:Umuzi-org/Sifiso-Sithole-758-contentitem-javascript.git
+  556  ls
+  557  cd Sifiso-Sithole-758-contentitem-javascript/
+  558  code task6.js
+  559  clear
+  560  node task6.js 
+  561  clear
+  562  git add . && git commit
+  563  git push
+  564  cd ..
+  565  git clone git@github.com:Umuzi-org/Sifiso-Sithole-765-contentitem-javascript.git
+  566  ls
+  567  clear
+  568  cd Sifiso-Sithole-765-contentitem-javascript/
+  569  ls
+  570  code task7.js
+  571  node task7.js 
+  572  git add . && git commit
+  573  git push
+  574  ls
+  575  cd ..
+  576  git clone git@github.com:Umuzi-org/Sifiso-Sithole-762-contentitem-javascript.git
+  577  clear
+  578  ls
+  579  cd Sifiso-Sithole-762-contentitem-javascript/
+  580  ls
+  581  code task8.js
+  582  node task8.js 
+  583  clear
+  584  git add .
+  585  git commit
+  586  git push
+  587  ls
+  588  node task8.js 
+  589  git clone git@github.com:Umuzi-org/Sifiso-Sithole-761-contentitem-javascript.git
+  590  ls
+  591  cd Sifiso-Sithole-761-contentitem-javascript/
+  592  ls
+  593  code task9.js
+  594  node task9.js 
+  595  git add . && git commit
+  596  git push
+  597  cd ..\
+  598  git clone git@github.com:Umuzi-org/Sifiso-Sithole-754-contentitem-javascript.git
+  599  cd Sifiso-Sithole-754-contentitem-javascript/
+  600  ls
+  601  code task10.js
+  602  cd Sifiso-Sithole-754-contentitem-javascript/
+  603  ls
+  604  node task10.js 
+  605  git add . && git commit
+  606  git push
+  607  node task10.js 
+  608  git add . && git commit
+  609  git push
+  610  clear
+  611  cd ..
+  612  ls
+  613  clear
+  614  git clone git@github.com:Umuzi-org/Sifiso-Sithole-394-bash-for-bootcamp-.git
+  615  clear
+  616  ls
+  617  cd Sifiso-Sithole-394-bash-for-bootcamp-/
+  618  ls
+  619  ls /
+  620  cd home
+  621  ls
+  622  code question_1.md
+  623  ls
+  624  git add question_1.md && git commit 
+  625  code question_2.md 
+  626  ls /
+  627  git add question_2.md && git commit
+  628  code question_3.md
+  629  pwd
+  630  ls
+  631  clear
+  632  git add question_3.md && git commit
+  633  clear
+  634  git push
+  635  code question_4.md
+  636  mkdir new_directory
+  637  ls
+  638  ls new_directory/
+  639  ls new_directory
+  640  mkdir /home/sifiso/test
+  641  mkdir /home/sifiso/test/new_directory
+  642  ls /home/sifiso/test/
+  643  code question_1.md 
+  644  git add question_4.md && git commit
+  645  clear
+  646  ls
+  647  rmdir new_directory/
+  648  ls
+  649  code question_5.md
+  650  code question_4.md 
+  651  cd /home/sifiso/test/new_directory/
+  652  pwd
+  653  ls
+  654  clear
+  655  cd -
+  656  git add question_5.md && git commit
+  657  clear
+  658  ls
+  659  git push
+  660  clear
+  661  ls
+  662  code question_6.md
+  663  ls -a /
+  664  cd ~/test/new_directory/
+  665  ls
+  666  pwd
+  667  cd ..
+  668  pwd
+  669  cd ~/Sifiso-Sithole-394-bash-for-bootcamp-/
+  670  ls
+  671  git add question_6.md && git commit 
+  672  cd home
+  673  code question_7.md
+  674  cd ~/test/new_directory/
+  675  pwd
+  676  cd ../..
+  677  pwd
+  678  git add . && git commit
+  679  cd Sifiso-Sithole-394-bash-for-bootcamp-/
+  680  ls
+  681  git add . && git commit
+  682  git push
+  683  clear
+  684  git add question_7.md && git commit
+  685  git push
+  686  cd Sifiso-Sithole-394-bash-for-bootcamp-/
+  687  ls
+  688  code question_8.md
+  689  git add question_8.md && git commit
+  690  code question_9.md
+  691  git add question_9.md && git commit
+  692  code question_10.md
+  693  git add question_10.md && git commit
+  694  clear
+  695  code question_11.md
+  696  code question_12.md
+  697  history
+  698  git add question_11.md && git commit
+  699  git add question_12.md && git commit
+  700  clear
+  701  code question_13.md
+  702  git add question_13.md && git commit && git push
+  703  cd /
+  704  ls home
+  705  ls
+  706  cd home
+  707  pwd
+  708  cd ~/test/new_directory/
+  709  ls
+  710  cd home
+  711  cd ..
+  712  ls
+  713  cd home
+  714  cd new_directory/
+  715  pwd
+  716  cd ../..
+  717  pwd
+  718  cd /tmp
+  719  pwd
+  720  cd /home/sifiso/test/new_directory/
+  721  pwd
+  722  cd ..
+  723  mkdir git-basic-exercises
+  724  touch git-basic-exercises/test-{1..4}.txt
+  725  ls git-basic-exercises/
+  726  rm -r git-basic-exercises/
+  727  ls
+  728  mkdir hello-world
+  729  cd hello-world/
+  730  git init
+  731  ls
+  732  touch README.md
+  733  git add . && git commit -m "initial commit" && git push
+  734  git push origin main
+  735  git push --set-upstream origin main
+  736  git remote add remote-github https://github.com/SifisoSithole 
+  737  git push remote-github 
+  738  clear
+  739  git clone git@github.com:Umuzi-org/Sifiso-Sithole-585-understanding-the-review-column-.git
+  740  cd Sifiso-Sithole-585-understanding-the-review-column-/
+  741  ls
+  742  code question_1.md
+  743  git add question_1.md && git commit
+  744  code question_2.md 
+  745  git add question_2.md && git commit
+  746  code question_3.md
+  747  git add question_3.md && git commit
+  748  clear
+  749  code question_4.md
+  750  git add question_4.md && git commit
+  751  code question_5.md
+  752  git add question_5.md && git commit
+  753  code question_6.md
+  754  git add question_6.md && git commit
+  755  code question_7.md
+  756  clear
+  757  git add question_67md && git commit
+  758  git add question_7md && git commit
+  759  git add question_7.md && git commit
+  760  clear
+  761  git status us
+  762  git log
+  763  clear
+  764  code question_8.md
+  765  git add question_8.md && git commit
+  766  git push
+  767  cd ..
+  768  git clone git@github.com:Umuzi-org/Sifiso-Sithole-219-level-1-programming-katas-javascript.git
+  769  clear
+  770  cd Sifiso-Sithole-219-level-1-programming-katas-javascript/
+  771  ls
+  772  git checkout -b task/1
+  773  code task1.js
+  774  node task1.js 
+  775  git add task1.js && git commit -m "create multiples function" && git push origin task/1
+  776  git checkout main 
+  777  git pull
+  778  git checkout -b task/2
+  779  code task2.js
+  780  ls
+  781  cd Sifiso-Sithole-429-bootcamp-writing-assignment-/
+  782  ls
+  783  code 1-my_brief_history.md 
+  784  code 2-why_I_want_this_career.md 
+  785  code 3-free_time.md 
+  786  code 4-relevant_experience.md 
+  787  code 5-what_will_make_a_good_cooder.md 
+  788  code 6-what_will_prevent_success.md 
+  789  code 7-my_routine.md 
+  790  code 8-future_good_parts.md 
+  791  code 9-future_scary_part.md 
+  792  code 10-my_commitments.md 
+  793  git add . && git commit -m "fix the errors and used grammarly" && git push
+  794  cd ../
+  795  ls
+  796  cd hello-world/Sifiso-Sithole-219-level-1-programming-katas-javascript/
+  797  ls
+  798  npm install eslint --save-dev
+  799  ls
+  800  rm -r node_modules/ package*
+  801  ls
+  802  git checkout main 
+  803  ls
+  804  git status
+  805  git checkout task/2
+  806  ls
+  807  git status
+  808  code task2.js 
+  809  git checkout main
+  810  ls
+  811  rm task2.js 
+  812  ls
+  813  git checkout task/2
+  814  ls
+  815  git status
+  816  code task2.js
+  817  ls
+  818  git checkout main
+  819  ls
+  820  git status
+  821  rm task2.js 
+  822  git checkout task/2 
+  823  ls
+  824  code task2.js
+  825  git add && git commit
+  826  git add task2.js && git commit
+  827  ls
+  828  git checkout main 
+  829  ls
+  830  git checkout task/2 
+  831  ls
+  832  clear
+  833  git push origin task/2
+  834  clear
+  835  git checkout main
+  836  git pull
+  837  git checkout -b task/3
+  838  ls
+  839  code task3.js
+  840  git add task3.js && git commit -m "implimented isSixtyFive function" && git push orign task/3
+  841  git add task3.js && git commit -m "implimented isSixtyFive function" && git push origin  task/3
+  842  ls
+  843  git status
+  844  git log
+  845  git push origin task/3
+  846  ls
+  847  git checkout task/2
+  848  ls
+  849  code task2.js 
+  850  git add task2.js && git commit -m "exported the hasThree function" && git push origin task/2
+  851  git checkout task/3 
+  852  code task3.js 
+  853  git add task3.js && git commit -m "exported the isSixtyFive function" && git push origin task/2
+  854  code test.js
+  855  node test.js 
+  856  clear
+  857  rm test.js 
+  858  git checkout main
+  859  ls
+  860  git checkout -b task/4
+  861  code task4.js
+  862  node task4.js 
+  863  code test.js
+  864  node test.js 
+  865  ls
+  866  rm test.js 
+  867  ls
+  868  git add task4.js && git commit -m "impliment square function" && git push origin task/4
+  869  ls
+  870  git add task4.js && git commit -m "refactored and documented the function" && git push origin task/4
+  871  git checkout task/3 
+  872  code task3.js 
+  873  git checkout main
+  874  ls
+  875  git checkout -b task/5
+  876  ls
+  877  code task5.js
+  878  node task5.js 
+  879  clear
+  880  node task5.js 
+  881  clear
+  882  node task5.js 
+  883  clear
+  884  node task5.js 
+  885  cl
+  886  clear
+  887  node task5.js 
+  888  clear
+  889  node task5.js 
+  890  clear
+  891  node task5.js 
+  892  clear
+  893  node task5.js 
+  894  ls
+  895  git add task5.js && git commit -m "implemented triangle function" && git push origin task/5
+  896  clear
+  897  cd Sifiso-Sithole-394-bash-for-bootcamp-
+  898  ls
+  899  code question_7.md 
+  900  code question_6.md 
+  901  code question_12.md 
+  902  git add question_12.md question_6.md question_7.md && git commit -m "corrected question 6, 7, 12" && git push 
+  903  clear
+  904  cd ../
+  905  ls
+  906  cd hello-world/
+  907  ls
+  908  cd ..
+  909  ls
+  910  git clone git@github.com:Umuzi-org/Sifiso-Sithole-606-tilde-project-tutorial-how-repo-projects-work-.git
+  911  cd Sifiso-Sithole-606-tilde-project-tutorial-how-repo-projects-work-/
+  912  ls
+  913  rm important.md 
+  914  git add . && git commit -m "delete important.md" && git push
+  915  git checkout -b SifisoSithole-patch-1
+  916  touch important.md
+  917  ls
+  918  git add . && git commit -m "create important.md" && git push origin SifisoSithole-patch-1 
+  919  cd ..
+  920  ls
+  921  cd hello-world/
+  922  ls
+  923  cd Sifiso-Sithole-585-understanding-the-review-column-/
+  924  ls
+  925  code question_1.md 
+  926  code question_4.md 
+  927  code question_5.md 
+  928  code question_8.md 
+  929  git add question_1.md question_5.md question_8.md question_4.md && git commmit -m "corrected question 1, 4, 5, 8" && git push
+  930  git commit -m "corrected question 1, 4, 5, 8" && git push
+  931  clear
+  932  cd hello-world/
+  933  ls
+  934  cd Sifiso-Sithole-219-level-1-programming-katas-javascript/
+  935  git checkout main
+  936  ls
+  937  git pull
+  938  git checkout task/1
+  939  ls
+  940  code task1.js 
+  941  git add task1.js && git commit
+  942  git push origin task/1 
+  943  git checkout task/2
+  944  ls
+  945  code task2.js 
+  946  git add task2.js && git commit
+  947  git push origin task/2 
+  948  git checkout task/3
+  949  code task3.js 
+  950  git add task3.js && git commit
+  951  git push origin task/3
+  952  git checkout origin task/4
+  953  git checkout task/4
+  954  ls
+  955  code task4.js 
+  956  git add task4.js && git commit
+  957  git push
+  958  git push origin task/4
+  959  git checkout task/5
+  960  ls
+  961  code task5.js 
+  962  git add task5.js && git commit
+  963  git push origin task/5
+  964  git checkout main
+  965  ls
+  966  git pull
+  967  code task6.js
+  968  node task6.js 
+  969  git add task6.js && git commit
+  970  git push origin 
+  971  git status
+  972  git log
+  973  git pull
+  974  ls
+  975  rm task6.js 
+  976  ls
+  977  git checkout main 
+  978  ls
+  979  git rm task6.js 
+  980  ls
+  981  git log
+  982  git rebase 
+  983  git reset --hard HEAD~1
+  984  git log
+  985  git checkout -b task/6
+  986  code task6.js
+  987  git add task6.js && git commit
+  988  git push origin task/6
+  989  git checkout main
+  990  ls
+  991  git pull
+  992  git checkout -b task/7
+  993  ls
+  994  code task7.js
+  995  node task7.js 
+  996  clear
+  997  git add task7.js && git commit
+  998  git push origin task/7
+  999  clear
+ 1000  git clone git@github.com:Umuzi-org/Sifiso-Sithole-223-person-javascript.git
+ 1001  code Sifiso-Sithole-223-person-javascript/
+ 1002  ls
+ 1003  git checkout -b person
+ 1004  ls
+ 1005  code person.js
+ 1006  code validate_person.js
+ 1007  node person.js 
+ 1008  clear
+ 1009  code hello.js
+ 1010  node person.js 
+ 1011  ls
+ 1012  git add . && git commit
+ 1013  clear
+ 1014  git status
+ 1015  git push origin person 
+ 1016  code ../Sifiso-Sithole-606-tilde-project-tutorial-how-repo-projects-work-/
+ 1017  ls
+ 1018  git checkout -b new-information
+ 1019  ls
+ 1020  code important.md 
+ 1021  git checkout main 
+ 1022  git pull
+ 1023  ls
+ 1024  git branch -d new-information 
+ 1025  ls
+ 1026  git checkout -b new-information
+ 1027  ls
+ 1028  code important.md 
+ 1029  git add important.md && git commit -m "update important.md" && git push origin new-information 
+ 1030  ls Sifiso-Sithole-*
+ 1031  cd hello-world/
+ 1032  ls
+ 1033  cd ..
+ 1034  cd Sifiso-Sithole-394-bash-for-bootcamp-/
+ 1035  ls
+ 1036  code question_6.md 
+ 1037  code question_7.md 
+ 1038  code question_12.md 
+ 1039  git log
+ 1040  git add question_6.md question_7.md question_12 && git commit
+ 1041  git add question_6.md question_7.md question_12.md && git commit
+ 1042  git push
+ 1043  code ../hello-world/Sifiso-Sithole-585-understanding-the-review-column-/
+ 1044  code ../../Sifiso-Sithole-223-person-javascript/
+ 1045  rm validate_person.js 
+ 1046  ls
+ 1047  git add . && git commit
+ 1048  git push origi person 
+ 1049  git push origin person 
+ 1050  node person.js 
+ 1051  rm hello.js 
+ 1052  ls
+ 1053  git add . && git commit 
+ 1054  git push origin person 
+ 1055  ls
+ 1056  git add person.js && git commit
+ 1057  git push
+ 1058  git push origin person 
+ 1059  node person.js 
+ 1060  clear
+ 1061  node person.js 
+ 1062  git add person.js && git commit 
+ 1063  git push origin person
+ 1064  node person.js 
+ 1065  code helper_objects.js
+ 1066  node person.js 
+ 1067  git add . && git commit 
+ 1068  git push origin person 
+ 1069  node person.js 
+ 1070  rm helper_objects.js 
+ 1071  ls
+ 1072  clear
+ 1073  ls
+ 1074  git add . && git commit
+ 1075  git push origin person 
+ 1076  cd ~
+ 1077  ls
+ 1078  clear
+ 1079  ls
+ 1080  mkdir git-basic-exercises
+ 1081  cd git-basic-exercises/
+ 1082  ls
+ 1083  git init
+ 1084  ls -a
+ 1085  git status
+ 1086  touch README.md
+ 1087  ls
+ 1088  git status
+ 1089  git log
+ 1090  git add 
+ 1091  git add .
+ 1092  git status
+ 1093  git commit -m "initial commit"
+ 1094  git push
+ 1095  cd ..
+ 1096  git pull https://github.com/SifisoSithole/git-basic-exercises
+ 1097  git clone https://github.com/SifisoSithole/git-basic-exercises
+ 1098  rm -r git-basic-exercises/
+ 1099  rm -ry git-basic-exercises/
+ 1100  rm -rf git-basic-exercises/
+ 1101  ls
+ 1102  git clone https://github.com/SifisoSithole/git-basic-exercises
+ 1103  cd git-basic-exercises/
+ 1104  ls
+ 1105  clear
+ 1106  cd ..
+ 1107  rm -rf git-basic-exercises/
+ 1108  mkdir git-basic-exercises
+ 1109  cd git-basic-exercises/
+ 1110  git init
+ 1111  touch README.md
+ 1112  ls
+ 1113  git add . && git commit -m "initial commit"
+ 1114  ls
+ 1115  git log
+ 1116  code README.md 
+ 1117  cat README.md 
+ 1118  git add . &&                                                                                                                                                                                                                                                                                                                                  git commit -m "second commit"
+ 1119  ls
+ 1120  git add . &&                                                                                                                                                                                                                                                                                                                                  git commit -m "third commit"
+ 1121  git log
+ 1122  git checkout eaa22cdfff2e45b725d50f5362897deeff293ecd
+ 1123  cat README.md 
+ 1124  git checkout main
+ 1125  git branch
+ 1126  git checkout -b milkshake-flavours
+ 1127  ls
+ 1128  git branch
+ 1129  code milkshakes.md
+ 1130  git add . && git commit -m "added initial flavours"
+ 1131  git checkout main
+ 1132  ls
+ 1133  git checkout -b history
+ 1134  git log
+ 1135  git branch
+ 1136  history > history.txt
